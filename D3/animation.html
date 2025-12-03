@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes moveright{
+            from{
+                transform: translateX(500px);
+            }
+            to{
+                transform: translateY(200px);
+                transform:rotate(90deg);
+                border-radius: 100px;
+                background-color: blueviolet;
+            }
+        }
+        @keyframes moveright1{
+            from{
+                transform: translateY(500px);
+            }
+            to{
+                transform: translateX(200px);
+            }
+        }
+        .box{
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+            background-color: steelblue;
+            animation: moveright 1s infinite alternate;
+        }
+        .box1{
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+            background-color: red;
+            animation: moveright1 1s infinite alternate;
+            border-radius: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class = "box"></div>
+    <div class = "box1"></div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: rgb(209, 128, 46);
+        }
+        h1{
+            background-color: orange;
+            height:50px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .container{
+            border-radius: 10px;
+            background-color: orange;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+        img{
+            margin: 10px;
+            width: 140px;
+            height: 200px;
+            border-radius: 20px;
+        }
+        img:hover{
+            box-shadow: 0px 0px 10px;
+            width: 142px;
+            height: 202px;
+            border-radius: 20px;
+        }
+        
+    </style>
+    <h1>Imgae Gallery using flex:-</h1>
+    <div class="container">
+        <img src="https://imgs.search.brave.com/p2CsJXOpK1hKIkTGhNXg8ryB4eTFUYrCoPxKa6NUXBY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzYxLzM0/LzEwLzYxMzQxMDNm/MjZmM2NmNDZkN2Mz/YjlhMzBlNWFlNjBk/LmpwZw">
+        <img src="https://imgs.search.brave.com/p2CsJXOpK1hKIkTGhNXg8ryB4eTFUYrCoPxKa6NUXBY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzYxLzM0/LzEwLzYxMzQxMDNm/MjZmM2NmNDZkN2Mz/YjlhMzBlNWFlNjBk/LmpwZw">
+        <img src="https://imgs.search.brave.com/p2CsJXOpK1hKIkTGhNXg8ryB4eTFUYrCoPxKa6NUXBY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzYxLzM0/LzEwLzYxMzQxMDNm/MjZmM2NmNDZkN2Mz/YjlhMzBlNWFlNjBk/LmpwZw">
+        <img src="https://imgs.search.brave.com/p2CsJXOpK1hKIkTGhNXg8ryB4eTFUYrCoPxKa6NUXBY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzYxLzM0/LzEwLzYxMzQxMDNm/MjZmM2NmNDZkN2Mz/YjlhMzBlNWFlNjBk/LmpwZw">
+        <img src="https://imgs.search.brave.com/p2CsJXOpK1hKIkTGhNXg8ryB4eTFUYrCoPxKa6NUXBY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzYxLzM0/LzEwLzYxMzQxMDNm/MjZmM2NmNDZkN2Mz/YjlhMzBlNWFlNjBk/LmpwZw">
+        <img src="https://imgs.search.brave.com/p2CsJXOpK1hKIkTGhNXg8ryB4eTFUYrCoPxKa6NUXBY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzYxLzM0/LzEwLzYxMzQxMDNm/MjZmM2NmNDZkN2Mz/YjlhMzBlNWFlNjBk/LmpwZw">
+        <img src="https://imgs.search.brave.com/p2CsJXOpK1hKIkTGhNXg8ryB4eTFUYrCoPxKa6NUXBY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzYxLzM0/LzEwLzYxMzQxMDNm/MjZmM2NmNDZkN2Mz/YjlhMzBlNWFlNjBk/LmpwZw">
+        <img src="https://imgs.search.brave.com/p2CsJXOpK1hKIkTGhNXg8ryB4eTFUYrCoPxKa6NUXBY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzYxLzM0/LzEwLzYxMzQxMDNm/MjZmM2NmNDZkN2Mz/YjlhMzBlNWFlNjBk/LmpwZw">
+        <img src="https://imgs.search.brave.com/p2CsJXOpK1hKIkTGhNXg8ryB4eTFUYrCoPxKa6NUXBY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzYxLzM0/LzEwLzYxMzQxMDNm/MjZmM2NmNDZkN2Mz/YjlhMzBlNWFlNjBk/LmpwZw">
+        <img src="https://imgs.search.brave.com/p2CsJXOpK1hKIkTGhNXg8ryB4eTFUYrCoPxKa6NUXBY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzYxLzM0/LzEwLzYxMzQxMDNm/MjZmM2NmNDZkN2Mz/YjlhMzBlNWFlNjBk/LmpwZw">
+    </div>
+</body>
+</html>
